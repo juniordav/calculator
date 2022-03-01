@@ -1,0 +1,5 @@
+#Pour récupérer le projet sur 
+git clone https://github.com/capywebformations/react-docker.git
+
+#Pour créer et démarrer les containers
+docker-compose up
