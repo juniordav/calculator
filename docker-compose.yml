@@ -3,7 +3,7 @@ services:
   react:
     container_name: node
     image: 'node:latest'
-    working_dir: /home/node/app
+    working_dir: /home/node/app/
     command:
       - /bin/sh
       - '-c'
