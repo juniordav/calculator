@@ -1,6 +1,6 @@
 class Board extends React.Component {
     renderSquare(i) {
-      return <Square />;
+      return <Cell />;
     }
   
     render() {
