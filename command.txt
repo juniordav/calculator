@@ -27,7 +27,7 @@ git config --global user.email "juniordavon1998@gmail.com"
 
 git remote add origin https://github.com/juniordav/calculator.git
 
-#créer la branche boilerplate et se positionne dessus
+#crée la branche boilerplate et se positionne dessus
 git checkout -b boilerplate
 
 #commit boilerplate code
@@ -36,5 +36,10 @@ git commit -m "feat: add boilerplate code"
 
 #push boilerplate code
 git push origin boilerplate
+
+
+
+#crée la branche feature/basic-calculator et se positionne dessus
+git checkout -b feature/basic-calculator
 
 

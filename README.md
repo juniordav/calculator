@@ -1,4 +1,4 @@
-# React Docker
+# Calculator
 
 ## Commands
 

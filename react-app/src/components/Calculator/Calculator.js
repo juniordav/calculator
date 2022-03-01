@@ -29,6 +29,7 @@ class Calculator extends React.Component {
     			var ans='';
     		  try
     			{
+            //evalue le calcul a faire
     				ans = eval(this.state.question);
     			}
     			catch(err)
@@ -37,7 +38,7 @@ class Calculator extends React.Component {
     			}
     			if(ans===undefined)
     				this.setState({answer: "Une erreur est survenue lors du calcul"});
-    			// update answer in our state.
+    			// mettre à jour la réponse.
     			else
     				this.setState({ answer: ans , question: ''});
     			break;
@@ -50,6 +51,7 @@ class Calculator extends React.Component {
       }
 
 	  case '<=': {
+      //effece un caractère
 	    var str = this.state.question;
   		str = str.substr(0,str.length-1);
   		this.setState({question: str});
