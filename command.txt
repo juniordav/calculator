@@ -3,3 +3,38 @@ git clone https://github.com/capywebformations/react-docker.git
 
 #Pour créer et démarrer les containers
 docker-compose up
+
+#Pour initialiser le dépôt git
+
+git add.
+
+
+#configurations globale
+
+# definit la branche par défaut à main
+git config --global init.defaultBranch main
+
+
+# definit le username
+git config --global user.name "Junior DAVON"
+
+#definit user.email
+git config --global user.email "juniordavon1998@gmail.com"
+
+
+
+#ajouter le remote origin 
+
+git remote add origin https://github.com/juniordav/calculator.git
+
+#créer la branche boilerplate et se positionne dessus
+git checkout -b boilerplate
+
+#commit boilerplate code
+git commit -m "feat: add boilerplate code"
+
+
+#push boilerplate code
+git push origin boilerplate
+
+
